@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="utf‑8"><title>Upload Demo</title></head>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Petrina djevojačka 💕</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #ffe6f0, #f5e6ff, #fdf1e7);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 1rem;
+    }
+    h1 {
+      color: #cc6699;
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #6d4c41;
+      margin-bottom: 2rem;
+    }
+    .upload-button {
+      background-color: #f8bbd0;
+      color: #4a148c;
+      border: none;
+      padding: 1rem 2.5rem;
+      font-size: 1.1rem;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .upload-button:hover {
+      background-color: #f48fb1;
+    }
+  </style>
+</head>
 <body>
-  <h2>Test upload forme</h2>
-  <form action="https://formspree.io/f/TVOJ_FORM_ID" method="POST" enctype="multipart/form-data">
-    <input type="text" name="ime" placeholder="Ime (opcionalno)">
-    <input type="file" name="file">
-    <button type="submit">Pošalji</button>
-  </form>
-  <p>Upload putem Formspree</p>
+  <h1>Petrina djevojačka 💕</h1>
+  <p>Hvala što ste došli! Ovdje možete učitati svoje slike i videe s našeg dana 🥰</p>
+  <a class="upload-button" href="https://tvoj-upload-link" target="_blank">
+    📤 Učitaj slike i videe
+  </a>
 </body>
 </html>
