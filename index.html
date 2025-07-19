@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Upload slika s događaja</title>
-</head>
+<head><meta charset="utf‑8"><title>Upload Demo</title></head>
 <body>
-  <h2>Pošalji svoju sliku ili video!</h2>
+  <h2>Test upload forme</h2>
+  <form action="https://formspree.io/f/TVOJ_FORM_ID" method="POST" enctype="multipart/form-data">
+    <input type="text" name="ime" placeholder="Ime (opcionalno)">
+    <input type="file" name="file">
+    <button type="submit">Pošalji</button>
+  </form>
+  <p>Upload putem Formspree</p>
 </body>
 </html>
